@@ -13,7 +13,8 @@ int main()
 	cout<<"enter 3 for traverse"<<endl;
 	cout<<"enter 4 for exit"<<endl;
 	cin>>ch;
-	switch(ch)
+		
+	switch(ch) //applying switch case 
 	{
 	  	case 1:
 	  		if(top==n-1)
